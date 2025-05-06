@@ -1,0 +1,95 @@
+/* Color de fondo general */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #7a2743; /* lavanda rosada */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #b43d6a; /* rosa fuerte */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Navegación */
+  nav {
+    background-color: #eb9ba8; /* rosa claro */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    width: auto;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #8b1554; /* rosa oscuro */
+  }
+  
+  /* Contenido principal */
+  main {
+    background-color: #ffffff;
+    padding: 30px;
+    font-size: 18px;
+    min-height: 400px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #b45374; /* rosa viejo oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  /* Encabezados */
+  h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #c71585; /* medio violeta/rosado */
+  }
+  
+  /* Párrafos */
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Información de contacto en línea */
+  .contact-info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px 0;
+  }
+  
+  .contact-info div {
+    background-color: #ffe4e1; /* rosa suave */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1)
+  }
+  
